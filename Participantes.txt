@@ -2,4 +2,4 @@ Guilherme Britto - RM558475
 Thiago Mendes - RM555352
 João Santis - RM555287
 
-link git:https://github.com/Offiline26/oceanSaviors/edit/feature/ocean
+link git:https://github.com/Offiline26/oceanSaviors.git
