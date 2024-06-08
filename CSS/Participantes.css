@@ -1,0 +1,506 @@
+body {
+    font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+::selection {
+    background-color: #7eccd1;
+    color: #4b53c2;
+    text-shadow: none;
+}
+
+
+@media (max-width: 480px) {
+    .cabeca {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: space-between;
+        width: 90%;
+        margin: 5%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    .shis {
+        font-size: 150%;
+    }
+
+    a {
+        text-decoration: none;
+        color: white
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 5%;
+    }
+
+    .foto {
+        width: 30%;
+        border-radius: 100%;
+    }
+
+    .laele {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        color: white;
+        font-size: 100%;
+    }
+
+    .midias {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box21 {
+        background-color: #292828;
+        width: 60%;
+        padding: 2%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 3%;
+    }
+
+    .header {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .info {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    #name {
+        width: 99%;
+        border-radius: 5px;
+        border-color: #0083fe;
+        background-color: lightgrey;
+        border-width: 2px;
+        font-size: 80%;
+        font-weight: 700;
+        color: rgb(88, 88, 88);
+    }
+
+    .mail {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    #mail {
+        width: 99%;
+        border-radius: 5px;
+        border-color: #0083fe;
+        background-color: lightgrey;
+        border-width: 2px;
+        font-size: 80%;
+        font-weight: 700;
+        color: rgb(88, 88, 88);
+    }
+
+    .coment {
+        display: block;
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: none;
+    }
+
+    #coment {
+        width: 99%;
+        border-radius: 5px;
+        border-color: #0083fe;
+        background-color: lightgrey;
+        border-width: 2px;
+        font-size: 100%;
+        font-weight: 700;
+        color: rgb(88, 88, 88);
+    }
+
+
+    .botao {
+        background-color: #474747;
+        color: white;
+        width: 100%;
+        padding: 1% 2%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .cabeca {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: space-between;
+        width: 90%;
+        margin: 5%;
+    }
+
+    h1 {
+        font-size: 350%;
+    }
+
+    .shis {
+        font-size: 150%;
+    }
+
+    a {
+        text-decoration: none;
+        color: white
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 5%;
+    }
+
+    .foto {
+        width: 30%;
+        border-radius: 100%;
+    }
+
+    .laele {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        color: white;
+        font-size: 200%;
+    }
+
+    .midias {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box21 {
+        background-color: #292828;
+        width: 40%;
+        padding: 2%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 3%;
+    }
+
+    .header {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .info {
+        width: 97%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    #name {
+        width: 99%;
+        border-radius: 5px;
+        border-color: #0083fe;
+        background-color: lightgrey;
+        border-width: 2px;
+        font-size: 80%;
+        font-weight: 700;
+        color: rgb(88, 88, 88);
+    }
+
+    .mail {
+        width: 97%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    #mail {
+        width: 99%;
+        border-radius: 5px;
+        border-color: #0083fe;
+        background-color: lightgrey;
+        border-width: 2px;
+        font-size: 80%;
+        font-weight: 700;
+        color: rgb(88, 88, 88);
+    }
+
+    .coment {
+        display: block;
+        width: 97%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: none;
+    }
+
+    #coment {
+        width: 99%;
+        border-radius: 5px;
+        border-color: #0083fe;
+        background-color: lightgrey;
+        border-width: 2px;
+        font-size: 100%;
+        font-weight: 700;
+        color: rgb(88, 88, 88);
+    }
+
+
+    .botao {
+        background-color: #474747;
+        color: white;
+        width: 100%;
+        padding: 1% 2%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) {
+    .cabeca {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: space-between;
+        width: 90%;
+        margin: 5%;
+    }
+
+    h1 {
+        font-size: 450%;
+    }
+
+    .shis {
+        font-size: 250%;
+    }
+
+    a {
+        text-decoration: none;
+        color: white
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 5%;
+    }
+
+    .foto {
+        width: 30%;
+        border-radius: 100%;
+    }
+
+    .laele {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        color: white;
+        font-size: 300%;
+    }
+
+    .midias {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box21 {
+        background-color: #292828;
+        width: 40%;
+        padding: 2%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 3%;
+    }
+
+    .header {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .info {
+        width: 97%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    #name {
+        width: 99%;
+        border-radius: 5px;
+        border-color: #0083fe;
+        background-color: lightgrey;
+        border-width: 2px;
+        font-size: 80%;
+        font-weight: 700;
+        color: rgb(88, 88, 88);
+    }
+
+    .mail {
+        width: 97%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    #mail {
+        width: 99%;
+        border-radius: 5px;
+        border-color: #0083fe;
+        background-color: lightgrey;
+        border-width: 2px;
+        font-size: 80%;
+        font-weight: 700;
+        color: rgb(88, 88, 88);
+    }
+
+    .coment {
+        display: block;
+        width: 97%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: none;
+    }
+
+    #coment {
+        width: 99%;
+        border-radius: 5px;
+        border-color: #0083fe;
+        background-color: lightgrey;
+        border-width: 2px;
+        font-size: 100%;
+        font-weight: 700;
+        color: rgb(88, 88, 88);
+    }
+
+
+    .botao {
+        background-color: #474747;
+        color: white;
+        width: 100%;
+        padding: 1% 2%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+}

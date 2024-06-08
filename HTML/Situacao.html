@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situação</title>
+    <link rel="stylesheet" href="/CSS/Situacao.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section class="cabecalho1">
+        <header class="titulo1">
+            <h1>SITUAÇÃO</h1>
+        </header>
+        <div class="container">
+            <nav class="opcao">
+                <a href="/HTML/Home.html">Home</a>
+            </nav>
+            <nav class="opcao"><a href="/HTML/Situacao.html"><em>Situação</em></a></nav>
+            <nav class="opcao"><a href="/HTML/Solucao.html">Solução</a></nav>
+            <nav class="opcao"><a href="/HTML/Informacoes.html">Consulta</a></nav>
+            <nav class="opcao"><a href="/HTML/NosAjude.html">Nos Ajude</a></nav>
+        </div>
+    </section>
+    <div id="themeButton" onclick="toogleTheme()"></div>
+    <header class="intro">
+        <h2>Como a pesca predatória afeta os oceanos de forma irreversível?</h2>
+    </header>
+    <section class="box1">
+        <article class="texto1">
+            <p><strong class="a">A</strong> pesca predatória afeta os oceanos de forma irreversível ao causar a
+                excessiva extração
+                da vida
+                marinha
+                selvagem, impedindo a reposição natural das espécies. Cientistas têm alertado há muito tempo sobre a
+                iminente catástrofe resultante da sobrepesca oceânica. Mesmo com a conscientização sobre o problema,
+                líderes
+                globais estão em um impasse há duas décadas sobre os esforços para reverter os danos já causados. Os
+                pesquisadores sabem quando a pesca predatória exagerada começou e têm uma boa ideia de quando, se não
+                for
+                resolvida, os efeitos se tornarão catastróficos. A sobrepesca não só ameaça a biodiversidade marinha,
+                mas
+                também mostra um sucesso limitado nos esforços de contenção de danos, deixando o ecossistema marinho em
+                um
+                estado vulnerável e comprometido.</p>
+            <p>
+            <h3>Por que a pesca excessiva ocorre</h3>
+            </p>
+            <p>O primeiro caso de sobrepesca que afetou o equilíbrio marinho foi registrado no início dos anos 1800,
+                quando a busca humana por gordura para a produção de óleo de lâmpada dizimou a população de baleias ao
+                redor do Banco Stellwagen, na costa de Cape Cod, uma península em forma de gancho no estado de
+                Massachusetts, nos EUA. Alguns peixes consumidos nos Estados Unidos, como bacalhau-atlântico, arenque e
+                sardinhas-da-califórnia, também foram pescados quase até a extinção em meados da década de 1900. Essas
+                reduções drásticas nas populações de peixes, embora isoladas e regionais, foram altamente disruptivas
+                para a cadeia alimentar, que se tornou ainda mais frágil até o final do século 20.
+            </p>
+        </article>
+        <img src="/IMG/nace-pesca_situacao1.jpg" alt="Pesca Predatória 1" class="img1">
+    </section>
+    <section class="box2">
+        <article class="texto2">
+            <p>As grandes frotas comerciais, em busca de lucros, adotavam uma abordagem agressiva, vasculhando o oceano
+                e desenvolvendo métodos e tecnologias cada vez mais sofisticados para localizar, extrair e processar
+                suas espécies-alvo. Os consumidores rapidamente se acostumaram a ter acesso a uma ampla seleção de
+                peixes a preços acessíveis.</p>
+            <p>No entanto, a indústria atingiu o seu pico em 1989, quando aproximadamente 90 milhões de toneladas de
+                peixe foram retiradas do oceano. Desde então, a receita diminuiu ou estagnou. A pesca das espécies mais
+                populares, como o sino, o bacalhau e o atum azul, entrou em colapso devido à falta de peixe. Em 2003, um
+                relatório científico estimou que a pesca industrial tinha reduzido as populações de grandes peixes
+                oceânicos para apenas 10% dos seus números pré-industriais.</p>
+        </article>
+        <img src="/IMG/pesca_situacao2.jpg" alt="Pesca Predatória 2" class="img2">
+        <article class="texto3">
+            <p>
+            <h3>Podemos parar de pescar demais?</h3>
+            </p>
+            <p>Os subsídios governamentais à indústria pesqueira continuam a ser um grande obstáculo para reverter a
+                tendência preocupante da sobrepesca. Uma pesquisa global mostrou que, em 2018, os países gastaram cerca
+                de R$ 114 bilhões em subsídios prejudiciais que incentivam a pesca excessiva, um aumento de 6% em
+                relação a 2009.</p>
+
+            <p>Em 2021, o diretor-geral da OMC, Ngozi Okonjo-Iweala, instou os membros a chegarem a um acordo, afirmando
+                que "falhar em alcançar um consenso colocaria em risco a biodiversidade oceânica e a sustentabilidade
+                dos estoques de peixes, dos quais muitas pessoas dependem para alimentação e renda".</p>
+        </article>
+    </section>
+    <footer>
+        <a href="/HTML/Participantes.html" class="foote"><strong>Informações sobre os participantes</strong></a>
+        <p class="foot">Número para contato: <em>(11)97574-7266</em></p>
+        <p class="foot">Email para contato: <em>ocean.saviors@org.com.br</em></p>
+    </footer>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "041096e7-02b5-4889-b9ce-0aaed6884a7f", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "63b3994a-130a-4967-8d66-aa75a1971798", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+</body>
+
+</html>

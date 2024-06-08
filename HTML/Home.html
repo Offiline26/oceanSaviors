@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/CSS/Home.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section class="cabecalho1">
+        <header class="titulo1">
+            <h1>OCEAN SAVIORS</h1>
+        </header>
+        <div class="container">
+            <nav class="opcao">
+                <a href="/HTML/Home.html"><em>Home</em></a>
+            </nav>
+            <nav class="opcao"><a href="/HTML/Situacao.html">Situação</a></nav>
+            <nav class="opcao"><a href="/HTML/Solucao.html">Solução</a></nav>
+            <nav class="opcao"><a href="/HTML/Informacoes.html">Consulta</a></nav>
+            <nav class="opcao"><a href="/HTML/NosAjude.html">Nos Ajude</a></nav>
+        </div>
+    </section>
+    <div id="themeButton" onclick="toogleTheme()"></div>
+    <header class="intro">
+        <h2>Propósito</h2>
+    </header>
+    <section class="box1">
+        <article class="texto1">
+            <p><strong class="o">O</strong> propósito dessa iniciativa é claro e ambicioso: acabar com os problemas
+                ambientais
+                marinhos, começando
+                pela conservação das espécies e a promoção da pesca sustentável. O primeiro passo de um compromisso
+                maior com a proteção dos oceanos, trabalhando para reverter os danos já causados e prevenir futuras
+                ameaças ao meio ambiente marinho. Estamos dedicados a criar soluções tecnológicas inovadoras que
+                promovam a sustentabilidade e preservem a rica vida marinha para as gerações futuras.</p>
+        </article>
+        <img src="/IMG/peixes_home1.jpg" alt="" class="img1">
+        <article class="texto2">
+            <header class="texto3">
+                <h3>Como a sobrepesca afeta a biodiversidade</h3>
+            </header>
+            <p>Diante do colapso das populações de grandes peixes, as frotas comerciais
+                começaram a
+                explorar áreas mais
+                profundas do oceano e a pescar espécies mais abaixo na cadeia alimentar para obter capturas viáveis.
+                Essa prática, conhecida como "pescar descendo a cadeia alimentar", desencadeou uma série de reações que
+                perturbam o delicado equilíbrio do sistema biológico marinho.</p>
+            <p>Os recifes de coral, por exemplo, são especialmente vulneráveis à sobrepesca. Peixes herbívoros, que
+                mantêm esses ecossistemas em equilíbrio ao comerem algas e manterem os corais limpos, são essenciais
+                para o crescimento saudável dos corais. Pescar muitos desses herbívoros – intencionalmente ou como
+                captura incidental (espécies não-alvo capturadas durante a pesca) – pode enfraquecer os recifes,
+                tornando-os mais suscetíveis a eventos climáticos extremos e mudanças climáticas. Além disso,
+                equipamentos de pesca e detritos podem destruir fisicamente os frágeis corais que formam as
+                fundações
+                dos recifes.</p>
+            <p>A sobrepesca também prejudica outras espécies marinhas. O arrasto, um
+                método em que os barcos puxam
+                enormes redes pela água, captura mais do que apenas camarão e atum azul – literalmente arrastando quase
+                tudo em seu caminho. Tartarugas-marinhas, golfinhos, aves marinhas, tubarões e outros animais estão
+                ameaçados de se tornarem capturas acessórias.</p>
+            <header class="texto4">
+                <h3>Menos de 1% dos navios concordaram em transportar equipamentos de monitoramento remoto</h3>
+            </header>
+
+            <p>As regras também não são difíceis de serem implementadas. Como demonstrado pelo Fundo Mundial para a
+                Natureza, equipar cada barco com mais de 10 metros de comprimento com dispositivos de monitoramento
+                remoto custaria apenas 5 milhões de libras.</p>
+
+            <p>Câmeras e sensores registrariam o que os barcos capturam e onde, tornando impossível a pesca ilegal. No
+                entanto, a instalação desses dispositivos é voluntária. Em outras palavras, é obrigatório cumprir a lei
+                para evitar descarte, pesca em excesso e pesca em zonas de exclusão, mas a instalação do equipamento que
+                verifica a conformidade com a lei é opcional.</p>
+        </article>
+    </section>
+    <footer>
+        <a href="/HTML/Participantes.html" class="foote"><strong>Informações sobre os participantes</strong></a>
+        <p class="foot">Número para contato: <em>(11)97574-7266</em></p>
+        <p class="foot">Email para contato: <em>ocean.saviors@org.com.br</em></p>
+    </footer>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "041096e7-02b5-4889-b9ce-0aaed6884a7f", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "63b3994a-130a-4967-8d66-aa75a1971798", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link rel="stylesheet" href="/CSS/Informacoes.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section class="cabecalho1">
+        <header class="titulo1">
+            <h1>CONSULTA</h1>
+        </header>
+        <div class="container">
+            <nav class="opcao">
+                <a href="/HTML/Home.html">Home</a>
+            </nav>
+            <nav class="opcao"><a href="/HTML/Situacao.html">Situação</a></nav>
+            <nav class="opcao"><a href="/HTML/Solucao.html">Solução</a></nav>
+            <nav class="opcao"><a href="/HTML/Informacoes.html"><em>Consulta</em></a></nav>
+            <nav class="opcao"><a href="/HTML/NosAjude.html">Nos Ajude</a></nav>
+        </div>
+    </section>
+    <div id="themeButton" onclick="toogleTheme()"></div>
+    <section class="box1">
+        <article class="intro">
+            <h2>Aproveite nosso portótipo para fazer consultas sobre os peixes em reprodução na região em que você está!
+            </h2>
+
+        </article>
+        <article class="texto1">
+            <p>Para facilitar o inicio desse projeto, disponibilizamos esse prototipo para teste de como funcionaria
+                <em class="em">(não é possível o funcionamento dele no momento)</em>
+            </p>
+        </article>
+    </section>
+    <section class="box2">
+        <form name='dados' action="/HTML/Informacoes.html" method='get' class="forma">
+            <label for="idRegiao"><strong class="cores">Região:</strong></label>
+            <select name="regiao" id="idRegiao" class="regiao" required>
+                <option selected disabled value="">Selecione</option>
+                <option value="sul">Sul</option>
+                <option value="sudeste">Sudeste</option>
+                <option value="nordeste">Nordeste</option>
+                <option value="norte">Norte</option>
+            </select>
+            <label for="idMes"><strong class="cores">Mês:</strong></label>
+            <select id="idMes" name="mes" class="mes" required>
+                <option selected disabled value="">Selecione</option>
+                <option value="jan">Janeiro (01)</option>
+                <option value="fev">Fevereiro (02)</option>
+                <option value="mar">Março (03)</option>
+                <option value="abr">Abril (04)</option>
+                <option value="mai">Maio (05)</option>
+                <option value="jun">Junho (06)</option>
+                <option value="jul">Julho (07)</option>
+                <option value="ago">Agosto (08)</option>
+                <option value="set">Setembro (09)</option>
+                <option value="out">Outubro (10)</option>
+                <option value="nov">Novembro (11)</option>
+                <option value="dez">Dezembro (12)</option>
+            </select>
+            <input type="submit" value="Enviar" class="botao">
+        </form>
+    </section>
+    <footer>
+        <a href="/HTML/Participantes.html" class="foote"><strong>Informações sobre os participantes</strong></a>
+        <p class="foot">Número para contato: <em>(11)97574-7266</em></p>
+        <p class="foot">Email para contato: <em>ocean.saviors@org.com.br</em></p>
+    </footer>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "041096e7-02b5-4889-b9ce-0aaed6884a7f", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "63b3994a-130a-4967-8d66-aa75a1971798", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+</body>
+
+</html>
