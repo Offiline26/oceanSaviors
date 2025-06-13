@@ -1,8 +1,8 @@
-# 🌊 OceanGuard - Plataforma de Monitoramento Marinho
+# 🌊 Ocean Saviors - Plataforma de Monitoramento Marinho
 
 ## 🌐 Visão Geral
 
-O **OceanGuard** é um projeto de conscientização e apoio à conservação dos ecossistemas marinhos, desenvolvido como parte de uma iniciativa ambiental inovadora. A plataforma foi criada utilizando **HTML5** e **CSS3**, com foco em uma interface limpa, acessível e informativa.
+O **Ocean Saviors** é um projeto de conscientização e apoio à conservação dos ecossistemas marinhos, desenvolvido como parte de uma iniciativa ambiental inovadora. A plataforma foi criada utilizando **HTML5** e **CSS3**, com foco em uma interface limpa, acessível e informativa.
 
 Nosso objetivo é combater os problemas ambientais marinhos, começando pela conservação das espécies e a promoção da pesca sustentável. Este projeto representa o primeiro passo de um compromisso maior com a proteção dos oceanos, trabalhando para reverter os danos já causados e prevenir futuras ameaças ao meio ambiente marinho.
 
@@ -58,10 +58,6 @@ A interface foi pensada para facilitar o acesso às informações críticas por 
 - **Status:**  
   🟢 Protótipo de interface concluído.
 
-## 📸 Demonstração Visual
-
-_(Insira aqui prints ou GIFs do projeto caso deseje)_
-
 ---
 
-> **OceanGuard: proteger hoje para existir amanhã.**
+> **Ocean Saviors: proteger hoje para existir amanhã.**
